@@ -220,6 +220,12 @@ nav {
   }
 }
 
+@media (max-width: 420px) {
+  .hero--heading {
+    margin-top: 50px;
+  }
+}
+
 .hero--heading h1 {
   font-family: 'Outfit';
     font-style: normal;
@@ -305,8 +311,8 @@ nav {
 @media (max-width: 500px) {
   .paragraf {
     display: flex;
-    margin-top: 50px !important;
-    gap: 36px !important;
+    margin-top: 40px !important;
+    gap: 10px !important;
   }
 }
 
@@ -353,8 +359,8 @@ nav {
 
 @media (max-width: 650px) {
   .fig--container {
-    margin-top: 150px;
-
+    margin-top: 50px;
+    /* border: 1px solid black; */
   }
 }
 
@@ -407,19 +413,20 @@ figure {
 
 @media (max-width: 650px) {
   figure {
-    margin-top: 80px;
-    height: 400px;
+    margin-top: 30px;
+    height: 250px;
   }
 }
 
 @media (max-width: 600px) {
   figure {
-    height: 492px;
+    height: 250px;
   }}
 
   @media (max-width: 420px) {
     figure {
-      height: 230px;
+      height: 190px;
+      gap: 15px;
       width: 85vw;
       margin-top: 0px;
     }
@@ -456,7 +463,7 @@ figure img {
 
 @media (max-width: 650px) {
   figure img {
-    height: 388px;
+    height: 200px;
   }
 }
 
@@ -490,10 +497,22 @@ figcaption {
   }
 }
 
+@media (max-width: 420px) {
+  figcaption {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 
 .article {
   padding-bottom: 100px;
 }
+
+@media (max-width: 650px) {
+ .article {
+  border: 1px solid black;
+  margin-top: 50px;
+ }}
 
 @media (max-width: 420px) {
   .article {
@@ -510,6 +529,12 @@ article {
     /* position: absolute; */
       height:min-content;
       margin-top: 160px;
+}
+
+@media (max-width: 650px) {
+  article {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 420px) {
