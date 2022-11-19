@@ -658,6 +658,15 @@ background-color: #B93815;
   display: flex;
   flex-direction: column;
   margin-right: auto;
+  gap: 30%;
+}
+
+@media (max-width: 600px) {
+  .footer--head--left {
+    display: flex;
+    flex-direction: column;
+    /* gap: 70% !important; */
+  }
 }
 
 
@@ -695,7 +704,7 @@ background-color: #B93815;
 @media (max-width: 1200px) {
   .footer--links--left {
     width: 60vw;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     /* border: 1px solid white; */
   }
 }
@@ -704,6 +713,7 @@ background-color: #B93815;
   .footer--links--left {
     height: 300px;
     gap: 16px;
+    margin-top: 40px;
   }
 }
 
