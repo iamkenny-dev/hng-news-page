@@ -10,11 +10,14 @@ const Hero = () => {
                 </h1>
 
             </div>
-                
+
+            <div className="paragraph">
             <div className="paragraf">
                 <p>Scientists have forecasted when and how Sun will end, as well as what it would look like.</p>
                 <p>World News Edited by Nikhil Pandey  Updated: November 12, 2022 1:59 pm IST</p>
             </div>
+            </div>
+            
 
             <div className="fig--container">
             <figure>

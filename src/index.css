@@ -232,9 +232,11 @@ nav {
 
 @media (max-width: 400px) {
   .hero--heading h1 {
-    font-size: 45px;
+    font-size: 28px;
+    line-height: 36px;
   }
 }
+
 
 
 .paragraf {
@@ -300,6 +302,7 @@ nav {
     letter-spacing: -0.025em;
     font-feature-settings: 'tnum' on, 'lnum' on;
     color: #2B2A30;
+    text-align: center;
 }
 
 @media (max-width: 1000px) {
@@ -315,9 +318,16 @@ nav {
   }
 }
 
+@media (max-width: 400px) {
+  .paragraf p {
+    font-size: 14px;
+      line-height: 20px;
+  }
+}
+
 
 .fig--container {
-  border: 3px solid green;
+  border: 1px solid white;
 }
 
 @media (max-width: 650px) {
@@ -369,6 +379,8 @@ figure {
   @media (max-width: 375px) {
     figure {
       height: 390px;
+      width: 85vw;
+      margin-top: 0px;
     }
   }
 
@@ -427,7 +439,6 @@ figcaption {
 
 
 .article {
-  border: 8px solid green;
   padding-bottom: 100px;
 }
 
@@ -439,6 +450,13 @@ article {
     /* position: absolute; */
       height:min-content;
       margin-top: 160px;
+}
+
+@media (max-width: 375px) {
+  article {
+    width: 80%;
+    margin-top: 80px;
+  }
 }
 
 
@@ -456,6 +474,13 @@ article p {
     letter-spacing: 0.05em;
     font-feature-settings: 'tnum' on, 'lnum' on;
     color: #565560;
+}
+
+@media (max-width: 375px) {
+  article p {
+    font-size: 16px;
+      line-height: 24px;
+  }
 }
 
 
@@ -479,7 +504,6 @@ footer {
     bottom: 0px;
     /* padding: 20%; */
     color: white;
-    border: 10px solid green;
     /* z-index: 10; */
 }
 
@@ -492,17 +516,16 @@ footer {
 
 div.footer--top {
   width: 100%;
-  height: 10%;
+  height: 20%;
   background-color: #F2E7D5;
 }
 
 @media (max-width: 600px) {
-  dv.footer--top {
+  div.footer--top {
     width: 100%;
       height: 10%;
       background-color: #F2E7D5;
-      border: 5px solid purple;
-      z-index: 9;
+      /* z-index: 9; */
   }
 }
 
@@ -662,6 +685,12 @@ hr {
   .footer--foot--left {
     position: absolute;
     margin-top: 80px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer--foot--left p {
+    font-size: 14px;
   }
 }
 
