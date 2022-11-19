@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
 
-    const [openNavbar, setOpenNavbar] = useState(true)
+    const [openNavbar, setOpenNavbar] = useState(false)
 
 
   return (

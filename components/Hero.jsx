@@ -16,10 +16,13 @@ const Hero = () => {
                 <p>World News Edited by Nikhil Pandey  Updated: November 12, 2022 1:59 pm IST</p>
             </div>
 
+            <div className="fig--container">
             <figure>
                 <img src="/img/figimage.png" alt="" />
                 <figcaption>The Sun is about 4.6 billion years old</figcaption>
             </figure>
+            </div>
+            
 
         </div>
 
