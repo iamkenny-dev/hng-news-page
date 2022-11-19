@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { GiHamburgerMenu } from 'react-icons/gi'
+// import { GiHamburgerMenu } from 'react-icons/gi'
 
 
 const Navbar = () => {
@@ -42,7 +42,7 @@ const Navbar = () => {
             :   ''  }
 
             <div className="burger">
-                <a onClick={() => {setOpenNavbar(prevMode => !prevMode)}} ><GiHamburgerMenu size='2rem' /></a>
+                <a onClick={() => {setOpenNavbar(prevMode => !prevMode)}} ><img src="/img/Button.png" className='button' alt="" /></a>
             </div>
 
         </nav>
