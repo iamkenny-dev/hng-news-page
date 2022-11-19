@@ -460,9 +460,9 @@ figure img {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   figure img {
-    height: 280px;
+    height: 210px;
   }
 }
 
