@@ -192,8 +192,8 @@ nav {
     height: 56px;
     border: 1px solid #EF6820;
     border-radius: 8px;
-  color: #EF6820;
-  /* background-color: white; */
+  color: white;
+  background-color:#EF6820;
   /* border-color: #EF6820; */
   text-decoration: none;
 }
@@ -202,7 +202,7 @@ nav {
 
 .hero--heading {
   width: 80vw;
-  margin-top: 216px;
+  margin-top: 100px;
   margin-left: auto;
     margin-right: auto;
 }
@@ -541,6 +541,7 @@ background-color: #B93815;
 .footer--head {
   display: flex;
   flex-direction: row;
+  /* width: 100vw; */
 }
 
 @media (max-width: 600px) {
@@ -575,10 +576,17 @@ background-color: #B93815;
     gap: 32px;
   
     /* position: absolute; */
-    width: 646px;
+    width: 40vw;
     height: 28px;
     /* left: 81px; */
     /* top: 228px; */
+}
+
+@media (max-width: 900px) {
+  .footer--links--left {
+    gap: 10px;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -604,7 +612,7 @@ background-color: #B93815;
     gap: 40px;
   
     /* position: absolute; */
-    width: 342.91px;
+    width: 30vw;
     /* height: 108px; */
     /* left: 1089px; */
     /* top: 144px; */
@@ -622,11 +630,29 @@ background-color: #B93815;
   display: flex;
   flex-direction: row;
   /* align-items: flex-start; */
-  gap: 40px;
+  gap: 10px;
   
     /* position: absolute; */
-    width: 342.91px;
+    width: 100%;
     /* height: 108px; */
+}
+
+.apple--app {
+  width: 50%;
+}
+
+.apple--app img{
+  width: 100%;
+  height: 100%;
+}
+
+.google--app {
+  width: 50%;
+}
+
+.google--app img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 600px) {
@@ -670,7 +696,7 @@ hr {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .footer--foot {
     padding-bottom: 20%;
   }
