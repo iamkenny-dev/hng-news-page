@@ -580,7 +580,7 @@ footer {
 
 @media (max-width: 600px) {
   footer {
-    height: 1000px;
+    height: 950px;
   }
 }
 
@@ -749,7 +749,7 @@ background-color: #B93815;
 
 @media (max-width: 600px) {
   .footer--head--right {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
   }
 }
