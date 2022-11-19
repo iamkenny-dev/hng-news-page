@@ -497,7 +497,7 @@ figcaption {
 
 @media (max-width: 420px) {
   .article {
-    margin-top: 0;
+    margin-top: 30px;
     border: 1px solid black;
   }
 }
@@ -519,7 +519,7 @@ article {
       /* or 150% */
     gap: 20px;
       letter-spacing: 0.01em;
-    margin-top: 60px;
+    margin-top: 30px;
   }
 }
 
@@ -852,9 +852,9 @@ hr {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .footer--foot--left p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
