@@ -510,7 +510,7 @@ figcaption {
 
 @media (max-width: 650px) {
  .article {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 50px;
  }}
 
