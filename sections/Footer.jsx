@@ -23,7 +23,7 @@ const Footer = () => {
 
 
                 <div className="footer--head--right">
-                    <h5>Download the mobile App</h5>
+                    <h4>Download the mobile App</h4>
                     <div className="app--stores">
                         <div className="apple--app">
                             <img src="/img/app--store.png" alt="" />
